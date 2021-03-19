@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/detailsePageImg.png');
 }
 
 code {
@@ -12,13 +13,26 @@ code {
     monospace;
 }
 
-ul,
-ol {
-  list-style: none;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.navLink {
+  font-size: 26px;
+  color: #fff;
+  margin-right: 16px;
+}
+
+.navLink:not(:last-child) {
+  margin-right: 16px;
+}
+
+.navLink--active {
+  color: red;
 }
